@@ -24,113 +24,61 @@ debug页面
 
 codeshare主要文件
 
+```bash
 |——（git仓库隐藏文件夹）
-
 |
-
 |——  web（前端项目文件夹）
-
     |—— dist（前端上线时的打包文件）
-
     |——  node_modules（前端依赖）
-
     |——  src（前端代码）
-
         |——  App.vue
-
         |——  main.js
-
         |——  assets（图片文件夹）
-
         |——  components（自定义组件文件夹）
-
              |——  ContentField.vue（主编辑区组件）
-
              |——  NavBar.vue（导航栏组件）
-
              |——  Queue.vue（队列动画组件）
-
              |——  Stack.vue（栈动画组件）
-
         |——  router（前端路径配置文件夹）
-
         |——  store（全局变量文件夹）
-
             |——  user.js（当前登录的用户）
-
         |——  views（前端页面文件夹）
-
             |——  database
-
                 |——  DatabaseIndex.vue（题库页面）
-
                 |——  TopicIndex.vue（单题页面）
-
             |——  debug
-
                 |——  DebugIndex.vue（debug区页面）
-
             |——  error
-
                 |——  NotFound.vue（404页面）
-
             |——  lesson
-
                 |——  LessonIndex.vue（网课推荐页面）
-
                 |——  LessonIdIndex.vue（推荐详情页面）
-
             |——  ranklist
-
                 |——  RanklistIndex.vue（排行榜页面）
-
             |——  user
-
                 |——  account
-
                     |——  UserAccount.vue（登录注册页面）
-
                 |——  code
-
                     |——  UserCodeIndex.vue（个人中心页面）
-
 |
-
 |——  backend（后端项目文件夹）
-
     |——  target
-
         |——  backend-0.0.1-SNAPSHOT.jar（后端上线时的打包文件）
-
     |——  pom.xml（后端依赖）
-
     |——  src（后端代码文件夹）
-
         |——  main/resources
-
                 |——  application.properties（配置后端端口）
-
             |——  java/com/codeshare/backend
-
                 |——  BackendApplication.java（后端主文件）
-
                 |——  config（后端配置文件夹）
-
                     |——  CorsConfig.java（解决跨域问题）
-
                     |——  SecurityConfig.java（添加后端白名单api：登录和注册的api）
-
                 |——  pojo
-
                 |——  mapper
-
                 |——  service
-
                     |——  impl
-
                 |—— controller
-
-
+```
 
 ## 3. 数据库创建代码（本项目用的是mysql）
 
